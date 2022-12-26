@@ -6,6 +6,7 @@ import Register from "./components/pages/Register/register";
 import Forget from "./components/pages/Forget/forget";
 
 import Home from "./components/pages/Home/home";
+import Course from "./components/pages/courses/courses";
 // import ProtectedRoute from "./components/ProtectedRoute"
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" element={<Register />}/>
         <Route path="/forget" element={<Forget />}/>
         <Route path="/" element={<Home/>}/>
+        <Route path="/course" element={<Course/>}/>
       </Routes>
     </Router>
   

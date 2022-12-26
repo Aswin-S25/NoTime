@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
 
-        <nav class="navbar navbar-expand-lg navbar-light text-white mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light text-white mt-2 mb-5">
             <div class="container-fluid d-flex flex-row me-7">
 
                 <a class="navbar-brand text-white"  href="#"><img src="no_time_logo_6 3.png" style={{ "width": "5.2rem" }}></img></a>
@@ -25,10 +25,10 @@ const Navbar = () => {
                     <ul class="navbar-nav mb-2 ms-auto align-items-center mb-lg-0 text-white ">
 
                         <li class="nav-item ">
-                            <a class="nav-link w-100 me-5 active text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link w-100 me-5 active text-white" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link w-100 me-5 text-white" href="#">Why NoTime?</a>
+                            <a class="nav-link w-100 me-5 text-white" href="#whyNoTime">Why NoTime?</a>
                         </li>
 
                         <li class="nav-item">
