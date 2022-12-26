@@ -1,0 +1,68 @@
+.s1-des {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 38px;
+    letter-spacing: 0.095em;
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.imgss {
+    width: 16rem;
+}
+
+.colum {
+    color: white;
+    padding: 1rem;
+    backdrop-filter: blur(4px) saturate(104%);
+    -webkit-backdrop-filter: blur(4px) saturate(84%);
+    background-color: rgba(114, 114, 114, 0.22);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.sub-img-1 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url('../../../../public/react-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+    border-radius: 27px;
+    margin-right: 1rem;
+}
+
+.main-cont {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.des {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.68);
+    opacity: 0.8;
+}
+
+.des2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 3.5rem;
+    letter-spacing: 0.1em;
+    color: rgb(73, 57, 167);
+}
