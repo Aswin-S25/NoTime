@@ -9,9 +9,9 @@
     padding-left: 3rem;
     backdrop-filter: blur(4px) saturate(104%);
     -webkit-backdrop-filter: blur(4px) saturate(84%);
-    background-color: rgba(114, 114, 114, 0.22);
+    background:#00004D;
     border-radius: 30px; 
-    border: 1px solid rgba(255, 255, 255, 0.699);
+    /* border: 1px solid rgba(255, 255, 255, 0.699); */
 }
 
 .row-1
@@ -115,4 +115,27 @@
     flex-direction: row;
     justify-content: space-between;
     width: 5rem;
+}
+
+.curved{
+    background:#00004D ;
+}
+.curved pre{
+    color: aqua;
+}
+.foot2{
+    border-radius: 30px; 
+    border: 1px solid rgba(16, 153, 181, 0.699);
+     height: 35px;
+     width: 200px;
+     color: #fff;
+     /* margin: -1px; */
+     /* padding: 1rem;
+     margin-left: auto;
+     margin-right: auto; */
+     /* margin-bottom: 1rem; */
+     /* padding-left: 3rem; */
+     backdrop-filter: blur(4px) saturate(104%);
+     -webkit-backdrop-filter: blur(4px) saturate(84%);
+     background:#00004D;
 }
