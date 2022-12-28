@@ -10,12 +10,12 @@ function Footer() {
 
    
      
-
+<div class="">
 
     <div class="container-fluid foot " >
       <div class="row text-center text-xs-center text-sm-left text-md-left " >
         
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
+        <div class="col-xs-12 col-sm-6 col-md-3">
        
         <br/>
           <img src="no_time_logo_6 3.png" alt="logo" />
@@ -52,7 +52,7 @@ function Footer() {
           </ul>
          
         </div>
-        <div class="col-xs-12 col-sm-6  col-md-1 ">
+        <div class="col-xs-12 col-sm-6 col-md-1 ">
         
         <ul class="list-unstyled quick-links ">
         <br/>
@@ -62,7 +62,7 @@ function Footer() {
         </ul>
        
       </div>
-      <div class="col-xs-12 col-sm-6  col-md-1 ">
+      <div class="col-xs-12 col-sm-6  col-md-1  ">
         
         <ul class="list-unstyled quick-links ">
         <br/>
@@ -88,15 +88,17 @@ function Footer() {
        </svg>
       
  
-</div>
+      </div>
         </div>
      </div>
+
+    
 
       
       
     </div>
-
-
+    <pre class="d-flex justify-content-center " > &copy; copyright 2023 NoTime - All Right Reserved</pre>
+    </div>
 
 
 
