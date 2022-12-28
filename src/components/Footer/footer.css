@@ -9,10 +9,14 @@
     padding-left: 3rem;
     backdrop-filter: blur(4px) saturate(104%);
     -webkit-backdrop-filter: blur(4px) saturate(84%);
-    background-color: rgba(114, 114, 114, 0.22);
+    background:#00004D;
     border-radius: 30px; 
-    border: 1px solid rgba(255, 255, 255, 0.699);
+    /* border: 1px solid rgba(255, 255, 255, 0.699); */
 }
+.pre1{
+    color: aqua;
+}
+
 
 .row-1
 {
@@ -105,7 +109,7 @@
     justify-content: start;
     height: 12rem;
 }
-.row-4>h3
+.row-4-h3
 {
     padding-bottom: 1.5rem;
 }
@@ -115,4 +119,24 @@
     flex-direction: row;
     justify-content: space-between;
     width: 5rem;
+}
+
+.curved{
+    background:#00004D ;
+}
+.curved pre{
+    color: aqua;
+}
+.foot2{
+    /* border-radius: 15px;  */
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 2px solid rgb(0, 221, 255);
+     width: 250px;
+     color: #fff;
+     margin-left: auto;
+     margin-right: auto;
+     backdrop-filter: blur(4px) saturate(104%);
+     -webkit-backdrop-filter: blur(4px) saturate(84%);
+     background:#00004D;
 }
